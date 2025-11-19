@@ -28,6 +28,9 @@ public:
     void getInfo(){
         cout<<"name is; "<<name<<endl;
         cout<<"salary is: "<<salary<<endl;
+        cout<<"branch is: "<<dept<<endl;
+        cout<<"subject is: "<<subject<<endl;
+    
     }
 };
 int main(){
@@ -40,7 +43,7 @@ int main(){
     // cout<<"name: "<<t1.name<<endl;
     // cout<<"salary: "<<t1.getSalary()<<endl
     
-    Teacher t1("nikhil","c++","computer science",80000);
+    Teacher t1("nikhil","digital elctronics","computer science ",80000);
     t1.getInfo();
     
     return 0;
